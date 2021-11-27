@@ -1,12 +1,12 @@
-import React from 'react'
-import logo from './assets/logo';
+import * as S from "./styles"
+import plant from "../../assets/images/plant.svg"
 
-function Logo() {
-    return (
-        <div>
-            <img src={logo} alt="Carbonfree Logo" />
-        </div>
-    )
-}
+const Logo = () =>{
+  return <S.Container>
+  <S.LogoText>
+    carbon<strong>free</strong>
+  </S.LogoText>
+  <img src={plant}/>
+  </S.Container>} 
 
 export default Logo
