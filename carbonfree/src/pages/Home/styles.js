@@ -3,7 +3,7 @@ import styled from "styled-components"
 export const Container = styled.section`
 display:flex;
 flex-direction: column;
-min-height: 100vh;
+height: 100vh;
 width: 100%;
 background:#002344;
 `
@@ -13,7 +13,7 @@ display:flex;
 align-items:center;
 justify-content:space-evenly;
 width: 100%;
-height: 89.5vh;
+height: 89.4vh;
 > img{
 width: 440px;
 }
