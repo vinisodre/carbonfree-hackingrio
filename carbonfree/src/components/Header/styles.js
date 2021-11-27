@@ -20,17 +20,21 @@ export const NavBar = styled.div`
 display: flex;
 align-items: center;
 height: 100%;
->button{
-  background: transparent;
-  border:none;
+>a{
+  text-decoration: none;
   font-size:24px;
   color: #929294;
-  margin-right: 40px;
+  margin-right: 80px;
   &:last-child{
     margin-right: 0;
   }
   &:hover{
     color:#109655;
+    transition: 1 all;
   }
+}
+
+.active{
+  color: #109655
 }
 `
