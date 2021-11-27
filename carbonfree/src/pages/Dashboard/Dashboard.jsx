@@ -2,7 +2,7 @@ import Sidebar from "../../components/Sidebar/Sidebar";
 import Main from "../../components/Main/Main";
 import * as S from './styles';
 
-function UserDashboard() {
+function Dashboard() {
   return (
     <S.Container>
       <Sidebar/>
@@ -11,4 +11,4 @@ function UserDashboard() {
   );
 }
 
-export default UserDashboard;
+export default Dashboard;

@@ -1,11 +1,12 @@
 import React from 'react';
 import * as S from './styles';
+import Profile from '../Profile/Profile';
 
 function Main() {
     return (
         <S.Main>
             <S.Container>
-                <h1>Main Area</h1>
+                <Profile />
             </S.Container>    
         </S.Main>
     )

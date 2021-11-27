@@ -4,6 +4,7 @@ import Home from "./pages/Home/Home"
 import HowWorks from "./pages/HowWorks/HowWorks";
 import CreateAccount from "./pages/Login/CreateAccount";
 import Login from "./pages/Login/Login";
+import Dashboard from "./pages/Dashboard/Dashboard"
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="como-funciona" element={<HowWorks />} />
           <Route exact path="login" element={<Login />} />
           <Route exact path="login/criar-conta" element={<CreateAccount />} />
+          <Route exact path="dashboard" element={<Dashboard />} />
         </Routes>
 
       </BrowserRouter>
