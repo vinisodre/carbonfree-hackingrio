@@ -1,11 +1,12 @@
-import * as S from "./styles"
+// import * as S from "./styles"
 import Header from "../../components/Header/Header"
+import UserDashboard from "../../components/UserDashboard/UserDashboard"
 
 const Home = () => {
 
   return<>
   <Header />
-  <S.Container><h1>teste</h1></S.Container>
+  <UserDashboard />
   </>
 }
 

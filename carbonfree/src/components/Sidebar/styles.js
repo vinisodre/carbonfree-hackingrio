@@ -1,14 +1,19 @@
 import styled from 'styled-components';
 
 export const Sidebar = styled.div`
-  width:20%;
-  background:green;
+  width:30%;
   display:flex;
   flex-direction:column;
 `
 export const Link = styled.a`
-  color:black;
-  margin:1rem;
+  background: transparent;
+  border:none;
+  font-size:24px;
+  color: #929294;
+  margin-bottom:34px;
+  &:hover{
+    color:#109655;
+  }
   `
 export const Container = styled.div`
   margin-top:2rem;

@@ -1,12 +1,10 @@
 import React from 'react';
-// import Logo from '.';
 // import Coins from '.Coins'
 import * as S from './styles';
 
 function Sidebar() {
     return (
         <S.Sidebar>
-            {/* <Logo /> */}
             <S.Container>
                 <S.Link>Minhas Informações</S.Link>
                 <S.Link>Ranking</S.Link>
