@@ -1,9 +1,18 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./index.css"
+import Home from "./pages/Home"
 
 function App() {
   return (
-    <div>
-      <h1>Vamos codar o CarbonFree</h1>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route
+          path="/"
+          exact
+          component={() => <Home key={window.location.search} />}
+        />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
