@@ -1,10 +1,16 @@
-import * as S from "./styles"
-import user from "../../assets/images/user.svg"
+import * as S from "./styles";
+import user from "../../assets/images/user.svg";
 
-const LoginButton = () =>{
-  return <><S.Container>
-    <S.Button><img src={user}/> login</S.Button>
-    </S.Container></>
-}
+const LoginButton = () => {
+  return (
+    <>
+      <S.Container>
+        <S.Button>
+          <img src={user} alt="usuário" /> login
+        </S.Button>
+      </S.Container>
+    </>
+  );
+};
 
-export default LoginButton
+export default LoginButton;
